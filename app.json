@@ -21,10 +21,21 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "package": "com.eferoy.pushnotify",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyB_7IsyO3Bv6-k3Yog-SbW3VNc7EKN1u3c"
+        }
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "26920985-19c5-4e59-9466-080035ef478e"
+      }
     }
   }
 }
